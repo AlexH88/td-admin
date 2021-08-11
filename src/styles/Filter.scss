@@ -1,0 +1,16 @@
+.filter-form {
+  width: 530px;
+  .filter-form_date {
+    padding: 15px;
+  }
+  .filter-form_type {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .filter-form_id-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+}

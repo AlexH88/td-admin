@@ -1,0 +1,20 @@
+.select {
+  margin-bottom: 15px;
+
+  label {
+    margin: 0 0 3px 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+
+  select {
+    display: block;
+    border: 1px solid #adb3bb;
+    background: #fff;
+    border-radius: 4px;
+    height: 42px;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+  }
+}

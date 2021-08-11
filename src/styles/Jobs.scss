@@ -1,0 +1,33 @@
+.job {
+  margin-top: 70px !important;
+  height: calc(100% + 55px);
+
+  thead {
+    th {
+      padding-top: 26px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.jobs-table {
+  tbody tr:nth-last-child(-n + 1) {
+    th {
+      border-bottom: 0px solid #ddd;
+    }
+  }
+
+  th:nth-child(2n + 1) {
+    width: 160px;
+    border-right: 1px solid #ddd;
+  }
+
+  th {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    font-size: 14px;
+    color: #222222;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,37 @@
+.wrapper-tooltip {
+  color: #5176a1;
+  cursor: pointer;
+  .tooltip {
+    display: none;
+  }
+}
+
+.wrapper-tooltip:hover {
+  .tooltip {
+    display: block;
+    z-index: 100;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+    border-radius: 4px 0px 4px 4px;
+    padding: 10px 10px;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #dce1e5;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+
+    table {
+      tbody {
+        tr:nth-child(even) {
+          background: #ffffff;
+        }
+        th {
+          font-size: 14px;
+          //          font-weight: 500;
+        }
+      }
+    }
+  }
+}
